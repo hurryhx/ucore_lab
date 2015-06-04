@@ -25,7 +25,7 @@ monitor_init (monitor_t * mtp, size_t num_cv) {
 // Unlock one of threads waiting on the condition variable. 
 void 
 cond_signal (condvar_t *cvp) {
-   //LAB7 EXERCISE1: 2011011248
+   //LAB7 EXERCISE1: 2011011253
    cprintf("cond_signal begin: cvp %x, cvp->count %d, cvp->owner->next_count %d\n", cvp, cvp->count, cvp->owner->next_count);  
   /*
    *      cond_signal(cv) {
